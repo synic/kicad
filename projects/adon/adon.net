@@ -1,0 +1,264 @@
+# EESchema Netlist Version 1.1 created  Tue 25 Mar 2014 09:45:24 PM MDT
+(
+ ( /533240BD Capacitor_SMD1206_HandSoldering_RevA_Date21Jun2010 C1 100uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5332273A Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010 C2 1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /53322771 Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010 C3 4.7uF
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /53322726 Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010 C4 10nF
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /5332275D Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010 C5 100nF
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /5332416A 2PIN_S_SMD D1 LED
+  ( 1 N-000011 )
+  ( 2 VDD )
+ )
+ ( /533237CE LED-5MM D2 LED3
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /533237C3 LED-5MM D3 LED2
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /533237B8 LED-5MM D4 LED1
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /533237A6 LED-5MM D5 LED0
+  ( 1 N-000020 )
+  ( 2 GND )
+ )
+ ( /53322681 tssop-20 IC1 STM32F030F4
+  ( 1 N-000012 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 NRST )
+  ( 5 VDD )
+  ( 6 N-000001 )
+  ( 7 N-000004 )
+  ( 8 N-000005 )
+  ( 9 N-000006 )
+  ( 10 N-000021 )
+  ( 11 N-000019 )
+  ( 12 N-000022 )
+  ( 13 N-000023 )
+  ( 14 ? )
+  ( 15 GND )
+  ( 16 VDD )
+  ( 17 ? )
+  ( 18 N-000002 )
+  ( 19 SWDIO )
+  ( 20 SWCLK )
+ )
+ ( /53323348 $noname$ JP1 SOUND
+  ( 1 N-000002 )
+  ( 2 N-000003 )
+ )
+ ( /53324095 $noname$ P1 BATTERY
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /53323EA2 $noname$ P2 SWD
+  ( 1 VDD )
+  ( 2 SWCLK )
+  ( 3 GND )
+  ( 4 SWDIO )
+  ( 5 NRST )
+  ( 6 ? )
+ )
+ ( /533235B5 $noname$ Q1 2N3704
+  ( 1 GND )
+  ( 2 N-000003 )
+  ( 3 N-000024 )
+ )
+ ( /53322695 2PIN_S_SMD R1 330
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /533226A9 $noname$ R2 R
+  ( 1 NRST )
+  ( 2 VDD )
+ )
+ ( /53323799 $noname$ R3 220
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+ )
+ ( /5332378E $noname$ R4 220
+  ( 1 N-000005 )
+  ( 2 N-000008 )
+ )
+ ( /5332377C $noname$ R5 220
+  ( 1 N-000004 )
+  ( 2 N-000013 )
+ )
+ ( /53323768 $noname$ R6 220
+  ( 1 N-000001 )
+  ( 2 N-000020 )
+ )
+ ( /53323631 $noname$ R7 1k
+  ( 1 VDD )
+  ( 2 N-000024 )
+ )
+ ( /5332361D $noname$ SP1 SPEAKER
+  ( 1 VDD )
+  ( 2 N-000024 )
+ )
+ ( /5332418E $noname$ SW1 POWER
+  ( 1 ? )
+  ( 2 N-000010 )
+  ( 3 N-000011 )
+ )
+ ( /53323A84 $noname$ SW2 BUTTON0
+  ( 1 VDD )
+  ( 2 N-000021 )
+ )
+ ( /53323A96 $noname$ SW3 BUTTON1
+  ( 1 VDD )
+  ( 2 N-000019 )
+ )
+ ( /53323AA1 $noname$ SW4 BUTTON2
+  ( 1 VDD )
+  ( 2 N-000022 )
+ )
+ ( /53323AAC $noname$ SW5 BUTTON3
+  ( 1 VDD )
+  ( 2 N-000023 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC1
+ TSSOP-20
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

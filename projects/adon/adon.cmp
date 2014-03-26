@@ -1,0 +1,199 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Tue 25 Mar 2014 09:45:24 PM MDT
+
+BeginCmp
+TimeStamp = /533240BD;
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = Capacitor_SMD1206_HandSoldering_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332273A;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /53322771;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /53322726;
+Reference = C4;
+ValeurCmp = 10nF;
+IdModule  = Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332275D;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332416A;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = 2PIN_S_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /533237CE;
+Reference = D2;
+ValeurCmp = LED3;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /533237C3;
+Reference = D3;
+ValeurCmp = LED2;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /533237B8;
+Reference = D4;
+ValeurCmp = LED1;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /533237A6;
+Reference = D5;
+ValeurCmp = LED0;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53322681;
+Reference = IC1;
+ValeurCmp = STM32F030F4;
+IdModule  = tssop-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323348;
+Reference = JP1;
+ValeurCmp = SOUND;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53324095;
+Reference = P1;
+ValeurCmp = BATTERY;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323EA2;
+Reference = P2;
+ValeurCmp = SWD;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /533235B5;
+Reference = Q1;
+ValeurCmp = 2N3704;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53322695;
+Reference = R1;
+ValeurCmp = 330;
+IdModule  = 2PIN_S_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /533226A9;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323799;
+Reference = R3;
+ValeurCmp = 220;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332378E;
+Reference = R4;
+ValeurCmp = 220;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332377C;
+Reference = R5;
+ValeurCmp = 220;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323768;
+Reference = R6;
+ValeurCmp = 220;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323631;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332361D;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332418E;
+Reference = SW1;
+ValeurCmp = POWER;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323A84;
+Reference = SW2;
+ValeurCmp = BUTTON0;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323A96;
+Reference = SW3;
+ValeurCmp = BUTTON1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323AA1;
+Reference = SW4;
+ValeurCmp = BUTTON2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323AAC;
+Reference = SW5;
+ValeurCmp = BUTTON3;
+IdModule  = ;
+EndCmp
+
+EndListe
