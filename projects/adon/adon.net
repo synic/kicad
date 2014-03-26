@@ -1,308 +1,413 @@
-# EESchema Netlist Version 1.1 created  Wed 26 Mar 2014 07:44:17 AM MDT
-(
- ( /533240BD $noname$ C1 100uF
-  ( 1 VDD )
-  ( 2 GND )
- )
- ( /5332273A $noname$ C2 1uF
-  ( 1 VDD )
-  ( 2 GND )
- )
- ( /53322771 $noname$ C3 4.7uF
-  ( 1 GND )
-  ( 2 VDD )
- )
- ( /53322726 $noname$ C4 10nF
-  ( 1 GND )
-  ( 2 VDD )
- )
- ( /5332275D $noname$ C5 100nF
-  ( 1 GND )
-  ( 2 VDD )
- )
- ( /53324D7D $noname$ D1 DIODE
-  ( 1 N-000023 )
-  ( 2 VDD )
- )
- ( /533237CE $noname$ D2 LED3
-  ( 1 N-000028 )
-  ( 2 GND )
- )
- ( /533237C3 $noname$ D3 LED2
-  ( 1 N-000027 )
-  ( 2 GND )
- )
- ( /533237B8 $noname$ D4 LED1
-  ( 1 N-000026 )
-  ( 2 GND )
- )
- ( /533237A6 $noname$ D5 LED0
-  ( 1 N-000025 )
-  ( 2 GND )
- )
- ( /53324DAA $noname$ D6 PWR
-  ( 1 VDD )
-  ( 2 N-000007 )
- )
- ( /5332D87B $noname$ D7 ERROR
-  ( 1 N-000029 )
-  ( 2 N-000030 )
- )
- ( /53322681 $noname$ IC1 STM32F030F4
-  ( 1 N-000019 )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 NRST )
-  ( 5 VDD )
-  ( 6 N-000008 )
-  ( 7 N-000009 )
-  ( 8 N-000010 )
-  ( 9 N-000006 )
-  ( 10 N-000011 )
-  ( 11 N-000013 )
-  ( 12 N-000014 )
-  ( 13 N-000015 )
-  ( 14 ? )
-  ( 15 GND )
-  ( 16 VDD )
-  ( 17 N-000029 )
-  ( 18 N-000017 )
-  ( 19 SWDIO )
-  ( 20 SWCLK )
- )
- ( /5332D767 $noname$ JP1 SOUND
-  ( 1 N-000017 )
-  ( 2 N-000032 )
-  ( 3 N-000032 )
- )
- ( /53324095 $noname$ P1 BATTERY
-  ( 1 N-000022 )
-  ( 2 GND )
- )
- ( /53323EA2 $noname$ P2 SWD
-  ( 1 VDD )
-  ( 2 SWCLK )
-  ( 3 GND )
-  ( 4 SWDIO )
-  ( 5 NRST )
-  ( 6 ? )
- )
- ( /533235B5 $noname$ Q1 2N3704
-  ( 1 GND )
-  ( 2 N-000032 )
-  ( 3 N-000005 )
- )
- ( /53322695 $noname$ R1 10k
-  ( 1 N-000019 )
-  ( 2 GND )
- )
- ( /533226A9 $noname$ R2 10k
-  ( 1 NRST )
-  ( 2 VDD )
- )
- ( /53323799 $noname$ R3 220
-  ( 1 N-000006 )
-  ( 2 N-000028 )
- )
- ( /5332378E $noname$ R4 220
-  ( 1 N-000010 )
-  ( 2 N-000027 )
- )
- ( /5332377C $noname$ R5 220
-  ( 1 N-000009 )
-  ( 2 N-000026 )
- )
- ( /53323768 $noname$ R6 220
-  ( 1 N-000008 )
-  ( 2 N-000025 )
- )
- ( /53323631 $noname$ R7 1k
-  ( 1 VDD )
-  ( 2 N-000005 )
- )
- ( /53324DB3 $noname$ R8 330
-  ( 1 N-000007 )
-  ( 2 GND )
- )
- ( /5332D893 $noname$ R9 330
-  ( 1 N-000030 )
-  ( 2 GND )
- )
- ( /5332361D $noname$ SP1 SPEAKER
-  ( 1 VDD )
-  ( 2 N-000005 )
- )
- ( /5332418E $noname$ SW1 POWER
-  ( 1 ? )
-  ( 2 N-000022 )
-  ( 3 N-000023 )
- )
- ( /53323A84 $noname$ SW2 BUTTON0
-  ( 1 VDD )
-  ( 2 N-000011 )
- )
- ( /53323A96 $noname$ SW3 BUTTON1
-  ( 1 VDD )
-  ( 2 N-000013 )
- )
- ( /53323AA1 $noname$ SW4 BUTTON2
-  ( 1 VDD )
-  ( 2 N-000014 )
- )
- ( /53323AAC $noname$ SW5 BUTTON3
-  ( 1 VDD )
-  ( 2 N-000015 )
- )
-)
-*
-{ Allowed footprints by component:
-$component C1
- CP*
- SM*
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component D1
- D?
- S*
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D5
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D7
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component IC1
- TSSOP-20
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
+(export (version D)
+  (design
+    (source /home/storage/Projects/kicad/projects/adon/adon.sch)
+    (date "Wed 26 Mar 2014 01:29:35 PM MDT")
+    (tool "Eeschema (2014-03-23 BZR 4768)-product"))
+  (components
+    (comp (ref R8)
+      (value 330)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53324DB3))
+    (comp (ref D6)
+      (value PWR)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53324DAA))
+    (comp (ref IC1)
+      (value STM32F030F4)
+      (footprint TSSOP-20)
+      (libsource (lib synic) (part STM32F030F4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53322681))
+    (comp (ref R1)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53322695))
+    (comp (ref R2)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 533226A9))
+    (comp (ref C4)
+      (value 10nF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53322726))
+    (comp (ref C2)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5332273A))
+    (comp (ref C5)
+      (value 100nF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5332275D))
+    (comp (ref C3)
+      (value 4.7uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53322771))
+    (comp (ref JP1)
+      (value SOUND)
+      (libsource (lib device) (part JUMPER))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323348))
+    (comp (ref Q1)
+      (value 2N3704)
+      (libsource (lib device) (part NPN))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 533235B5))
+    (comp (ref SP1)
+      (value SPEAKER)
+      (libsource (lib device) (part SPEAKER))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5332361D))
+    (comp (ref R7)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323631))
+    (comp (ref R6)
+      (value 220)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323768))
+    (comp (ref R5)
+      (value 220)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5332377C))
+    (comp (ref R4)
+      (value 220)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5332378E))
+    (comp (ref R3)
+      (value 220)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323799))
+    (comp (ref D5)
+      (value LED0)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 533237A6))
+    (comp (ref D4)
+      (value LED1)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 533237B8))
+    (comp (ref D3)
+      (value LED2)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 533237C3))
+    (comp (ref D2)
+      (value LED3)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 533237CE))
+    (comp (ref SW2)
+      (value BUTTON0)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323A84))
+    (comp (ref SW3)
+      (value BUTTON1)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323A96))
+    (comp (ref SW4)
+      (value BUTTON2)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323AA1))
+    (comp (ref SW5)
+      (value BUTTON3)
+      (libsource (lib device) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323AAC))
+    (comp (ref P2)
+      (value SWD)
+      (libsource (lib conn) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53323EA2))
+    (comp (ref P1)
+      (value BATTERY)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53324095))
+    (comp (ref C1)
+      (value 100uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 533240BD))
+    (comp (ref SW1)
+      (value POWER)
+      (libsource (lib device) (part SWITCH_INV))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5332418E)))
+  (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part JUMPER)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) JUMPER))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part NPN)
+      (docs transistors/bipolar/*.*)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) NPN))
+      (pins
+        (pin (num 1) (name E) (type passive))
+        (pin (num 2) (name B) (type input))
+        (pin (num 3) (name C) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part SPEAKER)
+      (fields
+        (field (name Reference) SP)
+        (field (name Value) SPEAKER))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))))
+    (libpart (lib device) (part SW_PUSH)
+      (description "Push Button")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part SWITCH_INV)
+      (description "Switch inverseur")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SWITCH_INV))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib conn) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib conn) (part CONN_6)
+      (description "ymbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib synic) (part STM32F030F4)
+      (description "STM32F030F4 16Kb flash / 4Kb ram / 48 Mhz")
+      (footprints
+        (fp TSSOP-20))
+      (fields
+        (field (name Reference) IC)
+        (field (name Value) STM32F030F4)
+        (field (name Footprint) TSSOP-20))
+      (pins
+        (pin (num 1) (name BOOT0) (type input))
+        (pin (num 2) (name PF0/OSC_IN) (type input))
+        (pin (num 3) (name PF1/OSC_OUT) (type output))
+        (pin (num 4) (name NRST) (type input))
+        (pin (num 5) (name VDDA) (type power_in))
+        (pin (num 6) (name PA0) (type BiDi))
+        (pin (num 7) (name PA1) (type BiDi))
+        (pin (num 8) (name PA2) (type BiDi))
+        (pin (num 9) (name PA3) (type BiDi))
+        (pin (num 10) (name PA4) (type BiDi))
+        (pin (num 11) (name PA5) (type BiDi))
+        (pin (num 12) (name PA6) (type BiDi))
+        (pin (num 13) (name PA7) (type BiDi))
+        (pin (num 14) (name PB1) (type BiDi))
+        (pin (num 15) (name VSS) (type power_in))
+        (pin (num 16) (name VDD) (type power_in))
+        (pin (num 17) (name PA9) (type BiDi))
+        (pin (num 18) (name PA10) (type BiDi))
+        (pin (num 19) (name PA13/SWDIO) (type BiDi))
+        (pin (num 20) (name PA14/SWCLK) (type BiDi)))))
+  (libraries
+    (library (logical device)
+      (uri /usr/local/share/kicad/library/device.lib))
+    (library (logical synic)
+      (uri /home/synic/Projects/kicad/libraries/schematic/synic.lib))
+    (library (logical conn)
+      (uri /usr/local/share/kicad/library/conn.lib)))
+  (nets
+    (net (code 1) (name "Net-(JP1-Pad2)")
+      (node (ref Q1) (pin 2))
+      (node (ref JP1) (pin 2)))
+    (net (code 2) (name VDD)
+      (node (ref SW5) (pin 1))
+      (node (ref SW4) (pin 1))
+      (node (ref SW3) (pin 1))
+      (node (ref SW2) (pin 1))
+      (node (ref SW1) (pin 3))
+      (node (ref C1) (pin 1))
+      (node (ref D6) (pin 1))
+      (node (ref IC1) (pin 5))
+      (node (ref P2) (pin 1))
+      (node (ref C5) (pin 2))
+      (node (ref R2) (pin 2))
+      (node (ref IC1) (pin 16))
+      (node (ref R7) (pin 1))
+      (node (ref C4) (pin 2))
+      (node (ref C2) (pin 1))
+      (node (ref SP1) (pin 1))
+      (node (ref C3) (pin 2)))
+    (net (code 3) (name GND)
+      (node (ref Q1) (pin 1))
+      (node (ref D2) (pin 2))
+      (node (ref R1) (pin 2))
+      (node (ref C5) (pin 1))
+      (node (ref R8) (pin 2))
+      (node (ref C2) (pin 2))
+      (node (ref C1) (pin 2))
+      (node (ref C4) (pin 1))
+      (node (ref D3) (pin 2))
+      (node (ref IC1) (pin 15))
+      (node (ref D5) (pin 2))
+      (node (ref P1) (pin 2))
+      (node (ref P2) (pin 3))
+      (node (ref C3) (pin 1))
+      (node (ref D4) (pin 2)))
+    (net (code 4) (name "Net-(Q1-Pad3)")
+      (node (ref Q1) (pin 3))
+      (node (ref SP1) (pin 2))
+      (node (ref R7) (pin 2)))
+    (net (code 5) (name "Net-(IC1-Pad6)")
+      (node (ref R6) (pin 1))
+      (node (ref IC1) (pin 6)))
+    (net (code 6) (name "Net-(IC1-Pad7)")
+      (node (ref IC1) (pin 7))
+      (node (ref R5) (pin 1)))
+    (net (code 7) (name SWDIO)
+      (node (ref IC1) (pin 19))
+      (node (ref P2) (pin 4)))
+    (net (code 8) (name SWCLK)
+      (node (ref P2) (pin 2))
+      (node (ref IC1) (pin 20)))
+    (net (code 9) (name "Net-(IC1-Pad14)")
+      (node (ref IC1) (pin 14)))
+    (net (code 10) (name "Net-(IC1-Pad17)")
+      (node (ref IC1) (pin 17)))
+    (net (code 11) (name "Net-(IC1-Pad18)")
+      (node (ref JP1) (pin 1))
+      (node (ref IC1) (pin 18)))
+    (net (code 12) (name "Net-(IC1-Pad8)")
+      (node (ref R4) (pin 1))
+      (node (ref IC1) (pin 8)))
+    (net (code 13) (name "Net-(IC1-Pad1)")
+      (node (ref R1) (pin 1))
+      (node (ref IC1) (pin 1)))
+    (net (code 14) (name "Net-(IC1-Pad2)")
+      (node (ref IC1) (pin 2)))
+    (net (code 15) (name "Net-(IC1-Pad3)")
+      (node (ref IC1) (pin 3)))
+    (net (code 16) (name "Net-(P2-Pad6)")
+      (node (ref P2) (pin 6)))
+    (net (code 17) (name "Net-(SW1-Pad1)")
+      (node (ref SW1) (pin 1)))
+    (net (code 18) (name "Net-(P1-Pad1)")
+      (node (ref P1) (pin 1))
+      (node (ref SW1) (pin 2)))
+    (net (code 19) (name "Net-(IC1-Pad9)")
+      (node (ref IC1) (pin 9))
+      (node (ref R3) (pin 1)))
+    (net (code 20) (name "Net-(D5-Pad1)")
+      (node (ref D5) (pin 1))
+      (node (ref R6) (pin 2)))
+    (net (code 21) (name "Net-(D4-Pad1)")
+      (node (ref R5) (pin 2))
+      (node (ref D4) (pin 1)))
+    (net (code 22) (name "Net-(D3-Pad1)")
+      (node (ref R4) (pin 2))
+      (node (ref D3) (pin 1)))
+    (net (code 23) (name "Net-(D2-Pad1)")
+      (node (ref R3) (pin 2))
+      (node (ref D2) (pin 1)))
+    (net (code 24) (name "Net-(IC1-Pad10)")
+      (node (ref SW2) (pin 2))
+      (node (ref IC1) (pin 10)))
+    (net (code 25) (name "Net-(IC1-Pad11)")
+      (node (ref SW3) (pin 2))
+      (node (ref IC1) (pin 11)))
+    (net (code 26) (name "Net-(IC1-Pad12)")
+      (node (ref SW4) (pin 2))
+      (node (ref IC1) (pin 12)))
+    (net (code 27) (name "Net-(IC1-Pad13)")
+      (node (ref SW5) (pin 2))
+      (node (ref IC1) (pin 13)))
+    (net (code 29) (name "Net-(D6-Pad2)")
+      (node (ref D6) (pin 2))
+      (node (ref R8) (pin 1)))
+    (net (code 30) (name NRST)
+      (node (ref P2) (pin 5))
+      (node (ref IC1) (pin 4))
+      (node (ref R2) (pin 1)))))

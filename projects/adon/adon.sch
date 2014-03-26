@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:synic
+LIBS:adon-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -59,9 +60,9 @@ Wire Wire Line
 Wire Wire Line
 	1350 1750 1350 1650
 Wire Wire Line
-	2200 1550 1950 1550
+	1950 1550 2200 1550
 Wire Wire Line
-	1950 1550 1950 1050
+	1950 650  1950 1550
 Wire Wire Line
 	1450 650  1950 650 
 Wire Wire Line
@@ -255,17 +256,6 @@ F 2 "" H 2900 750 60  0001 C CNN
 F 3 "" H 2900 750 60  0001 C CNN
 	1    2900 750 
 	0    -1   -1   0   
-$EndComp
-$Comp
-L DIODE D1
-U 1 1 53324D7D
-P 1950 850
-F 0 "D1" H 1950 950 40  0000 C CNN
-F 1 "DIODE" H 1950 750 40  0000 C CNN
-F 2 "" H 1950 850 60  0001 C CNN
-F 3 "" H 1950 850 60  0001 C CNN
-	1    1950 850 
-	0    1    1    0   
 $EndComp
 $Comp
 L STM32F030F4 IC1

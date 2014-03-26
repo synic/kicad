@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Wed 26 Mar 2014 10:48:16 AM MDT
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Wed 26 Mar 2014 03:41:26 PM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -33,13 +33,6 @@ TimeStamp = /5332275D;
 Reference = C5;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53324D7D;
-Reference = D1;
-ValeurCmp = DIODE;
-IdModule  = Diodes_SMD:D;
 EndCmp
 
 BeginCmp
@@ -78,13 +71,6 @@ IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5332D87B;
-Reference = D7;
-ValeurCmp = ERROR;
-IdModule  = LEDs:LED-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /53322681;
 Reference = IC1;
 ValeurCmp = STM32F030F4;
@@ -92,7 +78,7 @@ IdModule  = synic:tssop-20;
 EndCmp
 
 BeginCmp
-TimeStamp = /5332D767;
+TimeStamp = /53323348;
 Reference = JP1;
 ValeurCmp = SOUND;
 IdModule  = open-project:S_JUMPER_3;
@@ -176,17 +162,10 @@ IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
 EndCmp
 
 BeginCmp
-TimeStamp = /5332D893;
-Reference = R9;
-ValeurCmp = 330;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
-EndCmp
-
-BeginCmp
 TimeStamp = /5332361D;
 Reference = SP1;
 ValeurCmp = SPEAKER;
-IdModule  = Buzzer:MagneticBuzzer_ProSignal_ABT-410-RC_RevA_25Oct2010;
+IdModule  = Buzzer:MagneticBuzzer_Kingstate_KCG0601_RevA_25Oct2010;
 EndCmp
 
 BeginCmp
