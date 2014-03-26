@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Wed 26 Mar 2014 03:41:26 PM MDT
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Wed 26 Mar 2014 03:46:47 PM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /53323348;
 Reference = JP1;
 ValeurCmp = SOUND;
-IdModule  = open-project:S_JUMPER_3;
+IdModule  = Connect:SIL-3;
 EndCmp
 
 BeginCmp
