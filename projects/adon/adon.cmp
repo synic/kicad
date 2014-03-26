@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Wed 26 Mar 2014 10:17:11 AM MDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Wed 26 Mar 2014 10:48:16 AM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -74,14 +74,14 @@ BeginCmp
 TimeStamp = /53324DAA;
 Reference = D6;
 ValeurCmp = PWR;
-IdModule  = ;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5332D87B;
 Reference = D7;
 ValeurCmp = ERROR;
-IdModule  = ;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
@@ -95,21 +95,21 @@ BeginCmp
 TimeStamp = /5332D767;
 Reference = JP1;
 ValeurCmp = SOUND;
-IdModule  = ;
+IdModule  = open-project:S_JUMPER_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /53324095;
 Reference = P1;
 ValeurCmp = BATTERY;
-IdModule  = ;
+IdModule  = Connect:SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53323EA2;
 Reference = P2;
 ValeurCmp = SWD;
-IdModule  = ;
+IdModule  = Connect:SIL-6;
 EndCmp
 
 BeginCmp
@@ -193,35 +193,35 @@ BeginCmp
 TimeStamp = /5332418E;
 Reference = SW1;
 ValeurCmp = POWER;
-IdModule  = ;
+IdModule  = Discret:MICROSWITCH_SPST;
 EndCmp
 
 BeginCmp
 TimeStamp = /53323A84;
 Reference = SW2;
 ValeurCmp = BUTTON0;
-IdModule  = ;
+IdModule  = Discret:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53323A96;
 Reference = SW3;
 ValeurCmp = BUTTON1;
-IdModule  = ;
+IdModule  = Discret:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53323AA1;
 Reference = SW4;
 ValeurCmp = BUTTON2;
-IdModule  = ;
+IdModule  = Discret:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53323AAC;
 Reference = SW5;
 ValeurCmp = BUTTON3;
-IdModule  = ;
+IdModule  = Discret:SW_PUSH_SMALL;
 EndCmp
 
 EndListe
