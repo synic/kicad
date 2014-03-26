@@ -1,73 +1,82 @@
-# EESchema Netlist Version 1.1 created  Tue 25 Mar 2014 09:45:24 PM MDT
+# EESchema Netlist Version 1.1 created  Wed 26 Mar 2014 07:44:17 AM MDT
 (
- ( /533240BD Capacitor_SMD1206_HandSoldering_RevA_Date21Jun2010 C1 100uF
+ ( /533240BD $noname$ C1 100uF
   ( 1 VDD )
   ( 2 GND )
  )
- ( /5332273A Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010 C2 1uF
+ ( /5332273A $noname$ C2 1uF
   ( 1 VDD )
   ( 2 GND )
  )
- ( /53322771 Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010 C3 4.7uF
+ ( /53322771 $noname$ C3 4.7uF
   ( 1 GND )
   ( 2 VDD )
  )
- ( /53322726 Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010 C4 10nF
+ ( /53322726 $noname$ C4 10nF
   ( 1 GND )
   ( 2 VDD )
  )
- ( /5332275D Capacitor_SMD0805_HandSoldering_RevA_Date21Jun2010 C5 100nF
+ ( /5332275D $noname$ C5 100nF
   ( 1 GND )
   ( 2 VDD )
  )
- ( /5332416A 2PIN_S_SMD D1 LED
-  ( 1 N-000011 )
+ ( /53324D7D $noname$ D1 DIODE
+  ( 1 N-000023 )
   ( 2 VDD )
  )
- ( /533237CE LED-5MM D2 LED3
-  ( 1 N-000007 )
+ ( /533237CE $noname$ D2 LED3
+  ( 1 N-000028 )
   ( 2 GND )
  )
- ( /533237C3 LED-5MM D3 LED2
-  ( 1 N-000008 )
+ ( /533237C3 $noname$ D3 LED2
+  ( 1 N-000027 )
   ( 2 GND )
  )
- ( /533237B8 LED-5MM D4 LED1
-  ( 1 N-000013 )
+ ( /533237B8 $noname$ D4 LED1
+  ( 1 N-000026 )
   ( 2 GND )
  )
- ( /533237A6 LED-5MM D5 LED0
-  ( 1 N-000020 )
+ ( /533237A6 $noname$ D5 LED0
+  ( 1 N-000025 )
   ( 2 GND )
  )
- ( /53322681 tssop-20 IC1 STM32F030F4
-  ( 1 N-000012 )
+ ( /53324DAA $noname$ D6 PWR
+  ( 1 VDD )
+  ( 2 N-000007 )
+ )
+ ( /5332D87B $noname$ D7 ERROR
+  ( 1 N-000029 )
+  ( 2 N-000030 )
+ )
+ ( /53322681 $noname$ IC1 STM32F030F4
+  ( 1 N-000019 )
   ( 2 ? )
   ( 3 ? )
   ( 4 NRST )
   ( 5 VDD )
-  ( 6 N-000001 )
-  ( 7 N-000004 )
-  ( 8 N-000005 )
+  ( 6 N-000008 )
+  ( 7 N-000009 )
+  ( 8 N-000010 )
   ( 9 N-000006 )
-  ( 10 N-000021 )
-  ( 11 N-000019 )
-  ( 12 N-000022 )
-  ( 13 N-000023 )
+  ( 10 N-000011 )
+  ( 11 N-000013 )
+  ( 12 N-000014 )
+  ( 13 N-000015 )
   ( 14 ? )
   ( 15 GND )
   ( 16 VDD )
-  ( 17 ? )
-  ( 18 N-000002 )
+  ( 17 N-000029 )
+  ( 18 N-000017 )
   ( 19 SWDIO )
   ( 20 SWCLK )
  )
- ( /53323348 $noname$ JP1 SOUND
-  ( 1 N-000002 )
-  ( 2 N-000003 )
+ ( /5332D767 $noname$ JP1 SOUND
+  ( 1 N-000017 )
+  ( 2 N-000032 )
+  ( 3 N-000032 )
  )
  ( /53324095 $noname$ P1 BATTERY
-  ( 1 N-000010 )
+  ( 1 N-000022 )
   ( 2 GND )
  )
  ( /53323EA2 $noname$ P2 SWD
@@ -80,61 +89,69 @@
  )
  ( /533235B5 $noname$ Q1 2N3704
   ( 1 GND )
-  ( 2 N-000003 )
-  ( 3 N-000024 )
+  ( 2 N-000032 )
+  ( 3 N-000005 )
  )
- ( /53322695 2PIN_S_SMD R1 330
-  ( 1 N-000012 )
+ ( /53322695 $noname$ R1 10k
+  ( 1 N-000019 )
   ( 2 GND )
  )
- ( /533226A9 $noname$ R2 R
+ ( /533226A9 $noname$ R2 10k
   ( 1 NRST )
   ( 2 VDD )
  )
  ( /53323799 $noname$ R3 220
   ( 1 N-000006 )
-  ( 2 N-000007 )
+  ( 2 N-000028 )
  )
  ( /5332378E $noname$ R4 220
-  ( 1 N-000005 )
-  ( 2 N-000008 )
+  ( 1 N-000010 )
+  ( 2 N-000027 )
  )
  ( /5332377C $noname$ R5 220
-  ( 1 N-000004 )
-  ( 2 N-000013 )
+  ( 1 N-000009 )
+  ( 2 N-000026 )
  )
  ( /53323768 $noname$ R6 220
-  ( 1 N-000001 )
-  ( 2 N-000020 )
+  ( 1 N-000008 )
+  ( 2 N-000025 )
  )
  ( /53323631 $noname$ R7 1k
   ( 1 VDD )
-  ( 2 N-000024 )
+  ( 2 N-000005 )
+ )
+ ( /53324DB3 $noname$ R8 330
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /5332D893 $noname$ R9 330
+  ( 1 N-000030 )
+  ( 2 GND )
  )
  ( /5332361D $noname$ SP1 SPEAKER
   ( 1 VDD )
-  ( 2 N-000024 )
+  ( 2 N-000005 )
  )
  ( /5332418E $noname$ SW1 POWER
   ( 1 ? )
-  ( 2 N-000010 )
-  ( 3 N-000011 )
+  ( 2 N-000022 )
+  ( 3 N-000023 )
  )
  ( /53323A84 $noname$ SW2 BUTTON0
   ( 1 VDD )
-  ( 2 N-000021 )
+  ( 2 N-000011 )
  )
  ( /53323A96 $noname$ SW3 BUTTON1
   ( 1 VDD )
-  ( 2 N-000019 )
+  ( 2 N-000013 )
  )
  ( /53323AA1 $noname$ SW4 BUTTON2
   ( 1 VDD )
-  ( 2 N-000022 )
+  ( 2 N-000014 )
  )
  ( /53323AAC $noname$ SW5 BUTTON3
   ( 1 VDD )
-  ( 2 N-000023 )
+  ( 2 N-000015 )
  )
 )
 *
@@ -164,13 +181,8 @@ $component C5
  C1-1
 $endlist
 $component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+ D?
+ S*
 $endlist
 $component D2
  LED-3MM
@@ -200,6 +212,24 @@ $component D4
  LEDV
 $endlist
 $component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
  LED-3MM
  LED-5MM
  LED-10MM
@@ -254,6 +284,20 @@ $component R6
  SM1206
 $endlist
 $component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
  R?
  SM0603
  SM0805

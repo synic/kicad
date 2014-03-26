@@ -1,0 +1,18 @@
+# About
+Buzzer_Beeper_RevA_26Oct2010.mod
+
+
+Contains the KiCAD module/footprint of some
+buzzers and beepers.
+Maybe they can used for generic types also.
+ 
+Magnetic Buzzer, Projects Unlimited Type AI-4228-TWT-R
+Magnetic Buzzer, Pro Signal Type ABT-410-RC
+Magnetic Buzzer, Pro Signal Type ABI-010-RC
+Magnetic Buzzer, Pro Signal Type ABI-009-RC
+Magnetic Buzzer, Star Micronics Type HMB-06_HMB-12
+Magnetic Buzzer, Kingstate Type KCG0601
+
+Author: Bernd Wiebus / Uedem / Germany / 25 Oct 2010
+GNU-GPL, NO WARRANTY!
+

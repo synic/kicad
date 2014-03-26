@@ -1,4 +1,4 @@
-update=Tue 25 Mar 2014 09:41:57 PM MDT
+update=Wed 26 Mar 2014 07:43:12 AM MDT
 last_client=cvpcb
 [general]
 version=1
@@ -80,6 +80,8 @@ LibName11=valves
 LibName12=synic
 LibName13=open-project
 LibName14=Capacitors_SMD_RevA
+LibName15=Buzzer_Beeper_RevA_25Oct2010
+LibName16=SOT23_Transistor_RevA_03Aug2010
 LibDir=/home/synic/Projects/kicad/libraries/footprints
 [cvpcb]
 version=1
