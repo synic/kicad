@@ -71,4 +71,5 @@
   (lib (name Wire_Connections_Bridges)(type Legacy)(uri ${KISYSMOD}/Wire_Connections_Bridges.mod)(options "")(descr "The way you like them."))
   (lib (name Wire_Pads)(type Legacy)(uri ${KISYSMOD}/Wire_Pads.mod)(options "")(descr "The way you like them."))
   (lib (name synic)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/synic.mod)(options "")(descr ""))
+  (lib (name Buzzer)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/Buzzer_Beeper_RevA_25Oct2010.mod)(options "")(descr ""))
 )
