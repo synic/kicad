@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Wed 26 Mar 2014 03:46:47 PM MDT
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Wed 26 Mar 2014 05:03:51 PM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -33,6 +33,13 @@ TimeStamp = /5332275D;
 Reference = C5;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53335EFD;
+Reference = D1;
+ValeurCmp = ERROR;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
@@ -78,7 +85,7 @@ IdModule  = synic:tssop-20;
 EndCmp
 
 BeginCmp
-TimeStamp = /53323348;
+TimeStamp = /53335B2A;
 Reference = JP1;
 ValeurCmp = SOUND;
 IdModule  = Connect:SIL-3;
@@ -157,6 +164,13 @@ EndCmp
 BeginCmp
 TimeStamp = /53324DB3;
 Reference = R8;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /53335F08;
+Reference = R9;
 ValeurCmp = 330;
 IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
 EndCmp
