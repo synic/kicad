@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Wed 26 Mar 2014 05:03:51 PM MDT
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Wed 26 Mar 2014 08:28:49 PM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /5332361D;
 Reference = SP1;
 ValeurCmp = SPEAKER;
-IdModule  = Buzzer:MagneticBuzzer_Kingstate_KCG0601_RevA_25Oct2010;
+IdModule  = synic:Buzzer_CUI_INC_CC-1601;
 EndCmp
 
 BeginCmp
