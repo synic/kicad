@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/synic/Projects/kicad/projects/adon/adon.sch)
-    (date "Wed 26 Mar 2014 05:03:07 PM MDT")
+    (date "Fri 28 Mar 2014 09:53:26 AM MDT")
     (tool "Eeschema (2014-03-23 BZR 4768)-product"))
   (components
     (comp (ref R8)
@@ -306,10 +306,10 @@
   (libraries
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical synic)
-      (uri /home/synic/Projects/kicad/libraries/schematic/synic.lib)))
+      (uri /home/synic/Projects/kicad/libraries/schematic/synic.lib))
+    (library (logical conn)
+      (uri /usr/local/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(JP1-Pad2)")
       (node (ref JP1) (pin 3))

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Thu 27 Mar 2014 07:22:15 PM MDT
+Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Fri 28 Mar 2014 10:22:24 AM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /53322681;
 Reference = IC1;
 ValeurCmp = STM32F030F4;
-IdModule  = synic:tssop-20;
+IdModule  = ab2:AB2_TSSOP20;
 EndCmp
 
 BeginCmp
