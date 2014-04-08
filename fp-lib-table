@@ -74,4 +74,5 @@
   (lib (name Buzzer)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/Buzzer_Beeper_RevA_25Oct2010.mod)(options "")(descr ""))
   (lib (name open-project)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/open-project.mod)(options "")(descr ""))
   (lib (name ab2)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/ab2_tssop.mod)(options "")(descr ""))
+  (lib (name SOIC8)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/SOIC8.emp)(options "")(descr ""))
 )
