@@ -89,4 +89,5 @@
   (lib (name open-project)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/open-project.mod)(options "")(descr ""))
   (lib (name ab2)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/ab2_tssop.mod)(options "")(descr ""))
   (lib (name SOIC8)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/SOIC8.emp)(options "")(descr ""))
+  (lib (name WANDL)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/wayne_and_layne_kicad_modules.mod)(options "")(descr ""))
 )
