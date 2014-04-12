@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP NPN
+F transistors/bipolar/*.*
+$ENDCMP
+#
 $CMP STM32F030F4
 D STM32F030F4 16Kb flash / 4Kb ram / 48 Mhz
 K stm32 arm

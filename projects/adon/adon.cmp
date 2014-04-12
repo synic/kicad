@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-03-23 BZR 4768)-product   date = Sun 30 Mar 2014 10:25:01 AM MDT
+Cmp-Mod V01 Created by CvPcb (2014-04-07 BZR 4791)-product date = Sat 12 Apr 2014 10:07:01 AM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -36,9 +36,9 @@ IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53335EFD;
+TimeStamp = /53324DAA;
 Reference = D1;
-ValeurCmp = ERROR;
+ValeurCmp = PWR;
 IdModule  = LEDs:LED-0805;
 EndCmp
 
@@ -71,9 +71,9 @@ IdModule  = LEDs:LED-5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /53324DAA;
+TimeStamp = /53335EFD;
 Reference = D6;
-ValeurCmp = PWR;
+ValeurCmp = ERROR;
 IdModule  = LEDs:LED-0805;
 EndCmp
 
@@ -88,91 +88,91 @@ BeginCmp
 TimeStamp = /53335B2A;
 Reference = JP1;
 ValeurCmp = SOUND;
-IdModule  = Connect:SIL-3;
+IdModule  = synic:SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /53324095;
 Reference = P1;
 ValeurCmp = BATTERY;
-IdModule  = Connect:SIL-2;
+IdModule  = synic:SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /53323EA2;
+TimeStamp = /53495EA9;
 Reference = P2;
-ValeurCmp = SWD;
-IdModule  = Connect:SIL-6;
+ValeurCmp = TC2030-CTX;
+IdModule  = Tag-Connect:TC2030_SMALL;
 EndCmp
 
 BeginCmp
-TimeStamp = /533235B5;
+TimeStamp = /53495B40;
 Reference = Q1;
-ValeurCmp = 2N3704;
-IdModule  = SMD_Packages:SOT23;
+ValeurCmp = NPN;
+IdModule  = synic:sot23transistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53322695;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /533226A9;
 Reference = R2;
 ValeurCmp = 10k;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
-EndCmp
-
-BeginCmp
-TimeStamp = /53323799;
-Reference = R3;
-ValeurCmp = 220;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
-EndCmp
-
-BeginCmp
-TimeStamp = /5332378E;
-Reference = R4;
-ValeurCmp = 220;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
-EndCmp
-
-BeginCmp
-TimeStamp = /5332377C;
-Reference = R5;
-ValeurCmp = 220;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
-EndCmp
-
-BeginCmp
-TimeStamp = /53323768;
-Reference = R6;
-ValeurCmp = 220;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
-EndCmp
-
-BeginCmp
-TimeStamp = /53323631;
-Reference = R7;
-ValeurCmp = 1k;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /53324DB3;
-Reference = R8;
+Reference = R3;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323799;
+Reference = R4;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332378E;
+Reference = R5;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5332377C;
+Reference = R6;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323768;
+Reference = R7;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53323631;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /53335F08;
 Reference = R9;
 ValeurCmp = 330;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -193,28 +193,28 @@ BeginCmp
 TimeStamp = /53323A84;
 Reference = SW2;
 ValeurCmp = BUTTON0;
-IdModule  = Discret:SW_PUSH_SMALL;
+IdModule  = synic:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53323A96;
 Reference = SW3;
 ValeurCmp = BUTTON1;
-IdModule  = Discret:SW_PUSH_SMALL;
+IdModule  = synic:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53323AA1;
 Reference = SW4;
 ValeurCmp = BUTTON2;
-IdModule  = Discret:SW_PUSH_SMALL;
+IdModule  = synic:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53323AAC;
 Reference = SW5;
 ValeurCmp = BUTTON3;
-IdModule  = Discret:SW_PUSH_SMALL;
+IdModule  = synic:SW_PUSH_SMALL;
 EndCmp
 
 EndListe
