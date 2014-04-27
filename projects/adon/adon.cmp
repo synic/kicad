@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-04-07 BZR 4791)-product date = Sat 12 Apr 2014 10:07:01 AM MDT
+Cmp-Mod V01 Created by CvPcb (2014-04-07 BZR 4791)-product date = Sun 13 Apr 2014 09:23:26 AM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -33,6 +33,13 @@ TimeStamp = /5332275D;
 Reference = C5;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /534AAFA5;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:c_elec_4x4.5;
 EndCmp
 
 BeginCmp
@@ -73,7 +80,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53335EFD;
 Reference = D6;
-ValeurCmp = ERROR;
+ValeurCmp = FAIL;
 IdModule  = LEDs:LED-0805;
 EndCmp
 
@@ -106,9 +113,16 @@ IdModule  = Tag-Connect:TC2030_SMALL;
 EndCmp
 
 BeginCmp
-TimeStamp = /53495B40;
+TimeStamp = /534AAB68;
+Reference = P3;
+ValeurCmp = SWD;
+IdModule  = synic:SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5349FBA3;
 Reference = Q1;
-ValeurCmp = NPN;
+ValeurCmp = NPN2;
 IdModule  = synic:sot23transistor;
 EndCmp
 
