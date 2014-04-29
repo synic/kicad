@@ -91,4 +91,8 @@
   (lib (name SOIC8)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/SOIC8.emp)(options "")(descr ""))
   (lib (name WANDL)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/wayne_and_layne_kicad_modules.mod)(options "")(descr ""))
   (lib (name Tag-Connect)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/Tag-Connect.mod)(options "")(descr ""))
+  (lib (name JSTPH)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/jst-ph.mod)(options "")(descr ""))
+  (lib (name JSTEPH)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/jst_eph.mod)(options "")(descr ""))
+  (lib (name CONJST)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/con-jst2.mod)(options "")(descr ""))
+  (lib (name Sparkfun-Connect)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/sparkfun-connect.mod)(options "")(descr ""))
 )
