@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-04-07 BZR 4791)-product date = Sun 13 Apr 2014 09:23:26 AM MDT
+Cmp-Mod V01 Created by CvPcb (2014-04-07 BZR 4791)-product date = Tue 29 Apr 2014 01:52:04 PM MDT
 
 BeginCmp
 TimeStamp = /533240BD;
@@ -95,28 +95,21 @@ BeginCmp
 TimeStamp = /53335B2A;
 Reference = JP1;
 ValeurCmp = SOUND;
-IdModule  = synic:SIL-3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /53324095;
 Reference = P1;
 ValeurCmp = BATTERY;
-IdModule  = synic:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /53495EA9;
-Reference = P2;
-ValeurCmp = TC2030-CTX;
-IdModule  = Tag-Connect:TC2030_SMALL;
+IdModule  = synic:jst-2-pth-ra;
 EndCmp
 
 BeginCmp
 TimeStamp = /534AAB68;
 Reference = P3;
 ValeurCmp = SWD;
-IdModule  = synic:SIL-5;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x05;
 EndCmp
 
 BeginCmp
