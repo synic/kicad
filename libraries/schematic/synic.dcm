@@ -13,4 +13,19 @@ D STM32F030F4 16Kb flash / 4Kb ram / 48 Mhz
 K stm32 arm
 $ENDCMP
 #
+$CMP stm32f303x
+D stm32f303x
+K stm32,arm
+$ENDCMP
+#
+$CMP stm32f373
+D stm32f373
+K stm32,arm
+$ENDCMP
+#
+$CMP stm32f373c8
+D stm32f373
+K stm32,arm
+$ENDCMP
+#
 #End Doc Library
