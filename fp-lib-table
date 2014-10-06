@@ -35,6 +35,7 @@
   (lib (name Buzzer)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/Buzzer_Beeper_RevA_25Oct2010.mod)(options "")(descr ""))
   (lib (name open-project)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/open-project.mod)(options "")(descr ""))
   (lib (name ab2)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/ab2_tssop.mod)(options "")(descr ""))
+  (lib (name ab2qfp)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/ab2_lqfp.mod)(options "")(descr ""))
   (lib (name SOIC8)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/SOIC8.emp)(options "")(descr ""))
   (lib (name WANDL)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/wayne_and_layne_kicad_modules.mod)(options "")(descr ""))
   (lib (name Tag-Connect)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/Tag-Connect.mod)(options "")(descr ""))
@@ -43,4 +44,5 @@
   (lib (name CONJST)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/con-jst2.mod)(options "")(descr ""))
   (lib (name Sparkfun-Connect)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/sparkfun-connect.mod)(options "")(descr ""))
   (lib (name synicpretty)(type KiCad)(uri /home/synic/Projects/kicad/libraries/footprints/synicpretty.pretty)(options "")(descr ""))
+  (lib (name lqfp48)(type Legacy)(uri /home/synic/Projects/kicad/libraries/footprints/LQFP48.mod)(options "")(descr ""))
 )

@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
 $CMP NPN
 F transistors/bipolar/*.*
 $ENDCMP
@@ -8,9 +26,27 @@ $CMP NPN2
 F transistors/bipolar/*.*
 $ENDCMP
 #
+$CMP SN74AVC1T45
+D Linear Regulator +3V
+K regulator,3.3v
+$ENDCMP
+#
 $CMP STM32F030F4
 D STM32F030F4 16Kb flash / 4Kb ram / 48 Mhz
 K stm32 arm
+$ENDCMP
+#
+$CMP TESTPOINT
+D TESTPOINT
+$ENDCMP
+#
+$CMP TLV702xx
+D Linear Regulator +3V
+K regulator,3.3v
+$ENDCMP
+#
+$CMP TXS0101
+D TXS0101 Logic Level Shifter
 $ENDCMP
 #
 $CMP stm32f303x
